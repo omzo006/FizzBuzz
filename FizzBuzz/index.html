@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      nbr=0;
+      for (var i = 1; i <=100; i++) {
+          nbr = [i]
+        if ( nbr % 3 == 0) {
+          document.write('\n fizz \n');
+        } else if (nbr % 5 == 0) {
+          document.write('\n Buzz \n');
+        }else if (nbr % 15 == 0) {
+          document.write('\n FizzBuzz \n');
+        }else {
+          document.write(i);
+        }
+      }
+    </script>
+  </body>
+</html>
